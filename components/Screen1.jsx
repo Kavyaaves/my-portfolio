@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Screen2 from './Screen2';
 
 const Screen1 = () => {
-    return <div className="h-screen relative">
+    return <div className="h-screen relative scroller-div">
         <div className="border-custom ">
             <h1 className="font-elite px-6 text-5xl py-6">{'<'} Kavya Murali {'>'}</h1>
             <br />

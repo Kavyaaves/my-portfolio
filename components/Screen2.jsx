@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 
 const Screen2 = () => {
-    return <div className="h-screen relative bg-light">
+    return <div className="h-screen relative bg-light scroller-div">
         <div className="-mt-4">
             <div className='max-w-5xl h-100 flex items-center h-auto lg:h-auto flex-wrap mx-auto lg:my-0'>
                 <div className="flex mt-10 items-center text-center justify-center mx-auto gap-4">
