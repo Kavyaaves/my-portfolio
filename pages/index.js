@@ -12,23 +12,19 @@ export default function Home() {
         <title>Kavya Murali</title>
         <link href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dancing+Script:wght@700&family=Special+Elite&display=swap" rel="stylesheet" />
       </Head>
-
-      <main className="snap-y snap-mandatory  scroll-smooth">
-        <div className="snap-start snap-always">
+      <main className="snap-y scroll-smooth">
+        <div className="snap-center">
           <Screen1 />
         </div>
-        <div className="snap-start snap-always">
+        <div className="snap-center">
           <Screen2 />
         </div>
-      </main>
-      {/* <Footer /> */}
-
-      <footer className="footer">
-
-      </footer>
-    </div>
+      </main >
+      < footer className="footer" >
+      </footer >
+    </div >
   )
 }
