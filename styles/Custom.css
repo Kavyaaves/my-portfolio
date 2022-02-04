@@ -1,0 +1,15 @@
+.glow {
+	font-size: 80px;
+	color: #7dd3fc;
+	text-align: center;
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+	-moz-animation: glow 1s ease-in-out infinite alternate;
+	animation: glow 1s ease-in-out infinite alternate;
+	text-shadow: 0 0 20px #38bdf8, 0 0 30px #0284c7, 0 0 40px #0284c7,
+		0 0 50px #0284c7, 0 0 60px #0284c7, 0 0 70px #0284c7, 0 0 80px #0284c7;
+}
+
+.border-custom {
+	border-width: 20px;
+	border-image: repeating-radial-gradient(circle at 10px, #bae6fd, #93c5fd) 1;
+}
