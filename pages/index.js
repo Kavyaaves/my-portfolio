@@ -16,7 +16,7 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dancing+Script:wght@700&family=Special+Elite&display=swap" rel="stylesheet" />
       </Head>
-      <main className="scroller overflow-scroll w-screen h-screen">
+      <main className="scroller overflow-y-scroll h-screen">
         <Screen1 />
         <Screen2 />
         <Screen3 />
