@@ -11,5 +11,5 @@
 
 .border-custom {
 	border-width: 20px;
-	border-image: repeating-radial-gradient(circle at 10px, #bae6fd, #93c5fd) 1;
+	border-image: repeating-radial-gradient(circle at 10px, #bae6fd, #bae6fd) 1;
 }

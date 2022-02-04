@@ -1,8 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
+import Screen2 from './Screen2';
 
 const Screen1 = () => {
-    return <div className="h-screen w-screen">
+    return <div className="h-screen  relative snap-start snap-always">
         <div className="border-custom">
             <h1 className="font-elite px-6 text-5xl py-6">{'<'} Kavya Murali {'>'}</h1>
             <br />
@@ -13,9 +14,11 @@ const Screen1 = () => {
                     <h1 className="text-5xl pb-12"> Freelancer</h1>
                     <div className="py-6">
 
-                        <span className="border-solid border-2 w-100 rounded-lg text-xl p-3 cursor-pointer">
-                            Get my Resume
-                        </span>
+                        <a href="/Kavya's Resume.pdf" target="_blank">
+                            <span className="border-solid border-2 w-100 rounded-lg text-xl p-3 cursor-pointer">
+                                Get my Resume
+                            </span>
+                        </a>
 
                     </div>
                     <div className="p-6 flex gap-6">
@@ -37,16 +40,17 @@ const Screen1 = () => {
                             </a>
                         </div>
                     </div>
-                    <div className="m-12"></div>
                 </div>
-                <div className='lg:w-2/5 px-5'>
+                <div className='lg:w-2/5'>
                     <Image
                         src='/kavy1.jpg'
-                        width={48}
-                        height={65}
-                        alt="B Babu"
-                        layout='responsive'
-                        className='rounded-none lg:rounded-lg shadow-2xl hidden lg:block px-6'
+                        alt="Kavya Murali"
+                        layout='fixed'
+                        width={400}
+                        height={500}
+                        // objectFit="contain"
+                        // objectPosition="center"
+                        className='rounded-none lg:rounded-lg shadow-2xl hidden lg:block overflow-hidden'
                     />
                 </div>
             </div >
@@ -55,6 +59,11 @@ const Screen1 = () => {
                 <path fill="#bae6fd" fill-opacity="1" d="M0,64L80,96C160,128,320,192,480,197.3C640,203,800,149,960,128C1120,107,1280,117,1360,122.7L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
         </div>
     </div >
+    {/* <div className="h-screen relative bg-light">
+            <div className="-mt-4">
+
+            </div>
+        </div> */}
 };
 
 export default Screen1;

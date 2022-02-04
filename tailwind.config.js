@@ -7,7 +7,19 @@ module.exports = {
       'dancing': ['Dancing Script'],
       'elite': ['Special Elite'],
     },
-    extend: {},
+    backgroundColor: {
+      "light": "#bae6fd",
+      "medium": "#0891b2",
+      "dark": "#0c4a6e",
+    },
+    colors: {
+      "light": "#bae6fd",
+      "medium": "#0891b2",
+      "dark": "#0c4a6e",
+    },
+    extend: {
+
+    },
   },
 
   variants: {
